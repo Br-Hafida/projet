@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+...
+<script src="file:///C:/Users/HP/Documents/dev2.js"></script>
+<link rel="stylesheet" href="file:///C:/Users/HP/Documents/dev2.css" />
+<title>Page</title>
+</head>
+<body>
+<div>
+<h1 > Operations sur un compte .... </h1><br>
+
+<select id="myList" style="text-align: center;" onchange="myFunction()" >
+    <option>Depot </option>
+    <option>Retrait</option>
+    <option>Les deux</option>
+</select>
+ 
+</div>
+<div >
+<div >
+<h1> Somme déposée </h1>
+<h2 ><span id="depot">0</span> DH </h2>
+</div>
+<div >
+<h1 >Somme retirée</h1>
+<h2 ><span id="retrait">0</span> DH</h2>
+</div>
+<div >
+<h1 >Total</h1>
+<h2 ><span id="total">15000</span> DH</h2>
+</div>
+</div>
+<div >
+<div >
+<h3 > Déposez ici</h3>
+<input id="newDepot" type="text" placeholder="Somme à déposer en DH"/>
+<input type="button" value="Déposer" onclick="fc1()" >
+</div>
+<div >
+    <FORM id="formGr">
+<h3 >Retirez ici</h3>
+<input id="newRetrait" type="text" placeholder="somme à retirer en DH"/>
+<input type="button" value="Retirer" onclick="fc2()">
+</FORM>
+</div>
+</div>
+<P id="intro"> </P>
+</body>
+</html>
